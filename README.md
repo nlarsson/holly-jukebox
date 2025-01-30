@@ -1,3 +1,5 @@
+[![CI](https://github.com/nlarsson/holly-jukebox/actions/workflows/ci.yml/badge.svg)](https://github.com/nlarsson/holly-jukebox/actions/workflows/ci.yml)
+
 # Holly Jukebox
 RESTful API to fetch information about music artists
 

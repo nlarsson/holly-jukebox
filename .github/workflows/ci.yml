@@ -1,0 +1,23 @@
+name: CI
+
+'on':
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Java 21.x
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'maven'
+      - name: verify
+        run: ./mvnw -B -ntp verify
+      - name: mvn spotless:check
+        run: ./mvnw -B -ntp spotless:check
