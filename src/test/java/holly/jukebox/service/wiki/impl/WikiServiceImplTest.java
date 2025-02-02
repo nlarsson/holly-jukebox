@@ -1,0 +1,104 @@
+package holly.jukebox.service.wiki.impl;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
+import holly.jukebox.service.wiki.WikidataRestClient;
+import holly.jukebox.service.wiki.WikipediaRestClient;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Stream;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.ResponseEntity;
+
+@ExtendWith(MockitoExtension.class)
+class WikiServiceImplTest {
+
+  @Mock WikidataRestClient wikidataRestClient;
+  @Mock WikipediaRestClient wikipediaRestClient;
+
+  @InjectMocks WikiServiceImpl wikiService;
+
+  @Test
+  void fetchSitelinksForId() throws Exception {
+    // Prepare
+    String searchResult = readFile("site_links_result.json");
+
+    // Expect
+    when(wikidataRestClient.fetchSitelinksForId("Q15862"))
+        .thenReturn(ResponseEntity.ok(searchResult));
+
+    // Execute
+    Optional<Map<String, String>> sitelinks = wikiService.fetchSitelinksForId("Q15862");
+
+    // Assert
+    assertThat(sitelinks).isNotEmpty();
+    assertThat(sitelinks.get()).containsEntry("enwiki", "Queen (band)");
+  }
+
+  static Stream<Arguments> responseEntityErrorResponses() {
+    return Stream.of(
+        Arguments.of(ResponseEntity.badRequest().build()),
+        Arguments.of(ResponseEntity.internalServerError().build()));
+  }
+
+  @ParameterizedTest
+  @MethodSource("responseEntityErrorResponses")
+  void fetchSitelinksForIdErrors(ResponseEntity<String> response) {
+    // Expect
+    when(wikidataRestClient.fetchSitelinksForId("plopp")).thenReturn(response);
+
+    // Execute
+    Optional<Map<String, String>> sitelinks = wikiService.fetchSitelinksForId("plopp");
+
+    // Assert
+    assertThat(sitelinks).isEmpty();
+  }
+
+  @Test
+  void fetchDescriptionForTitle() throws Exception {
+    // Prepare
+    String searchResult = readFile("title_result.json");
+
+    // Expect
+    when(wikipediaRestClient.fetchDescriptionForTitle("title"))
+        .thenReturn(ResponseEntity.ok(searchResult));
+
+    // Execute
+    Optional<String> description = wikiService.fetchDescriptionForTitle("title");
+
+    // Assert
+    assertThat(description)
+        .hasValue(
+            "<p class=\"mw-empty-elt\">\n\n\n</p>\n\n<p><b>Queen</b>  are  a British rock band formed in London in 1970 by Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), and Roger Taylor (drums, vocals), later joined by John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.\n</p><p>Before forming Queen, May and Taylor had played together in the band Smile. Mercury was a fan of Smile and encouraged them to experiment with more elaborate stage and recording techniques. He joined in 1970 and suggested the name \"Queen\". Deacon was recruited in February 1971, before the band released their self-titled debut album in 1973. Queen first charted in the UK with their second album, <i>Queen II</i>, in 1974. <i>Sheer Heart Attack</i> later that year and <i>A Night at the Opera</i> in 1975 brought them international success. The latter featured \"Bohemian Rhapsody\", which topped the UK singles chart for nine weeks and helped popularise the music video format. The band's 1977 album <i>News of the World</i> contained \"We Will Rock You\" and \"We Are the Champions\", which have become anthems at sporting events. By the early 1980s, Queen were one of the biggest stadium rock bands in the world. \"Another One Bites the Dust\" from <i>The Game</i> (1980) became their best-selling single, and their 1981 compilation album <i>Greatest Hits</i> is the best-selling album in the UK and is certified nine times platinum in the US by the Recording Industry Association of America (RIAA). Their performance at the 1985 Live Aid concert is ranked among the greatest in rock history by various publications. In August 1986, Mercury gave his last performance with Queen at Knebworth, England.\n</p><p>Mercury was diagnosed with AIDS in 1987.  The band released two more albums, <i>The Miracle</i> in 1989 and <i>Innuendo</i> in 1991.  On 23 November 1991, Mercury publicly revealed his AIDS diagnosis, and the next day died of bronchopneumonia, a complication of AIDS. One more album was released featuring Mercury's vocals, 1995's <i>Made in Heaven</i>. Deacon retired in 1997, while May and Taylor continued to make sporadic appearances together. Since 2004, they have toured as \"Queen +\", with vocalists Paul Rodgers and Adam Lambert.\n</p><p>Queen have been a global presence in popular culture for more than half a century. Estimates of their record sales range from 250\u00a0million to 300\u00a0million, making them one of the world's best-selling music artists. In 1990, Queen received the Brit Award for Outstanding Contribution to British Music. They were inducted into the Rock and Roll Hall of Fame in 2001, and with each member having composed hit singles, all four were inducted into the Songwriters Hall of Fame in 2003. In 2005, they received the Ivor Novello Award for Outstanding Song Collection from the British Academy of Songwriters, Composers, and Authors, and in 2018 were presented the Grammy Lifetime Achievement Award.\n</p>");
+  }
+
+  @ParameterizedTest
+  @MethodSource("responseEntityErrorResponses")
+  void fetchDescriptionForTitleErrors(ResponseEntity<String> response) {
+    // Expect
+    when(wikipediaRestClient.fetchDescriptionForTitle("title")).thenReturn(response);
+
+    // Execute
+    Optional<String> description = wikiService.fetchDescriptionForTitle("title");
+
+    // Assert
+    assertThat(description).isEmpty();
+  }
+
+  private static String readFile(final String resourceName) throws IOException {
+    Path path = Paths.get("src/test/resources/wiki/" + resourceName);
+    return Files.readString(path);
+  }
+}

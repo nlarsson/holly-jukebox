@@ -1,0 +1,23 @@
+#
+# This file serves as an example configuration to display what custom configuration is available.
+
+# MusicBrainz requests to use a meaningful user agent so they can contact you
+# in case they feel you are abusing their API.
+# https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting#Provide_meaningful_User-Agent_strings
+music-brainz:
+  base-url: http://localhost:8080 # defaults to https://musicbrainz.org/ws/2
+  user-agent: My agent # defaults to HollyJukebox/0.0.1 nlarsson@hotmail.se
+
+# Cover art archive
+cover-art-archive:
+  base-url: http://localhost:8080 # defaults to http://coverartarchive.org
+  request-timeout:
+    timeout: 200 # default to 5
+    time-unit: MILLISECONDS # defaults to SECONDS - accepts java.util.concurrent.TimeUnit values
+
+# Wiki sources
+wiki:
+  wikidata:
+    base-url: http://localhost:8080 # defaults to https://www.wikidata.org/w/api.php
+  wikipedia:
+    base-url: http://localhost:8080 # defaults to https://en.wikipedia.org/w/api.php
