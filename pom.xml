@@ -22,6 +22,7 @@
 
     <!-- dependency versions -->
     <org.mapstruct.version>1.6.3</org.mapstruct.version>
+    <com.jayway.jsonpath.json-path.version>2.9.0</com.jayway.jsonpath.json-path.version>
 
     <!-- plugin versions -->
     <spotless-maven-plugin.version>2.44.2</spotless-maven-plugin.version>
@@ -31,6 +32,12 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.jayway.jsonpath</groupId>
+      <artifactId>json-path</artifactId>
+      <version>${com.jayway.jsonpath.json-path.version}</version>
     </dependency>
 
     <dependency>
@@ -100,6 +107,7 @@
           </annotationProcessorPaths>
           <compilerArgs>
             <arg>-Amapstruct.defaultComponentModel=spring</arg>
+            <arg>-Amapstruct.defaultInjectionStrategy=constructor</arg>
           </compilerArgs>
         </configuration>
       </plugin>

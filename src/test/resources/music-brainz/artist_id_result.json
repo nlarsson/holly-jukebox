@@ -1,0 +1,1060 @@
+{
+  "sort-name": "Avicii",
+  "gender": "Male",
+  "begin-area": {
+    "type": null,
+    "name": "Stockholm",
+    "sort-name": "Stockholm",
+    "disambiguation": "",
+    "id": "1127ddc2-eab3-4662-8718-6adbdeea3b10",
+    "type-id": null
+  },
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "relations": [
+    {
+      "attribute-ids": {},
+      "type": "allmusic",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "direction": "forward",
+      "target-credit": "",
+      "source-credit": "",
+      "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+      "target-type": "url",
+      "url": {
+        "id": "116793eb-4927-4d38-a7b0-86f616396d28",
+        "resource": "https://www.allmusic.com/artist/mn0002393596"
+      },
+      "begin": null,
+      "end": null
+    },
+    {
+      "ended": true,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "BBC Music page",
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "forward",
+      "begin": null,
+      "url": {
+        "id": "d78f118e-8736-46da-8472-a459ffc6116d",
+        "resource": "https://www.bbc.co.uk/music/artists/c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"
+      },
+      "target-type": "url",
+      "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+      "source-credit": "",
+      "end": "2020-11-19"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-values": {},
+      "attributes": [],
+      "type": "discogs",
+      "ended": false,
+      "attribute-ids": {},
+      "end": null,
+      "url": {
+        "resource": "https://www.discogs.com/artist/1235958",
+        "id": "6a00cfa4-edd7-43d5-acda-ab5ee009713b"
+      },
+      "begin": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "type": "free streaming",
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+      "url": {
+        "id": "d56c501c-e8bc-42fd-a293-410d53432d4d",
+        "resource": "https://open.spotify.com/artist/1vCWHaC5f2uS3yhpwWbIA6"
+      },
+      "begin": null
+    },
+    {
+      "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+      "target-type": "url",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "resource": "https://www.deezer.com/artist/293585",
+        "id": "e7549496-a4ef-4359-826e-381189a41632"
+      },
+      "end": null,
+      "attribute-ids": {},
+      "ended": false,
+      "type": "free streaming",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "attribute-ids": {},
+      "ended": false,
+      "type": "image",
+      "attributes": [],
+      "attribute-values": {},
+      "target-credit": "",
+      "direction": "forward",
+      "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+      "target-type": "url",
+      "source-credit": "",
+      "url": {
+        "resource": "https://commons.wikimedia.org/wiki/File:Avicii_2014_003cr.jpg",
+        "id": "fc81ee35-6b97-473d-8652-b02c4c13e878"
+      },
+      "begin": null,
+      "end": null
+    },
+    {
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+      "url": {
+        "id": "e2e6a6d6-1ef5-4ce6-b330-4af61c695de3",
+        "resource": "https://www.imdb.com/name/nm5443174/"
+      },
+      "begin": null,
+      "end": null,
+      "attribute-ids": {},
+      "attributes": [],
+      "attribute-values": {},
+      "type": "IMDb",
+      "ended": false,
+      "direction": "forward",
+      "target-credit": ""
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "type": "last.fm",
+      "ended": false,
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "url": {
+        "id": "12270a43-6b86-4864-8489-6d91b37fe88e",
+        "resource": "https://www.last.fm/music/Avicii"
+      },
+      "begin": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+      "end": null
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "type": "lyrics",
+      "attributes": [],
+      "attribute-values": {},
+      "end": null,
+      "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+      "target-type": "url",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "id": "19ebcd22-3a56-4476-bed6-0c985829dbcd",
+        "resource": "http://muzikum.eu/en/122-9253/avicii/lyrics.html"
+      }
+    },
+    {
+      "source-credit": "",
+      "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+      "target-type": "url",
+      "begin": null,
+      "url": {
+        "id": "f7e5b78f-b688-4bac-856d-6b2e574962a5",
+        "resource": "https://genius.com/artists/Avicii"
+      },
+      "end": null,
+      "attribute-ids": {},
+      "type": "lyrics",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "direction": "forward",
+      "target-credit": ""
+    },
+    {
+      "end": null,
+      "target-type": "url",
+      "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+      "source-credit": "",
+      "url": {
+        "resource": "https://myspace.com/avicii",
+        "id": "5541705b-791c-4bf3-ba83-95d611cb4856"
+      },
+      "begin": null,
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "myspace"
+    },
+    {
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "official homepage",
+      "target-credit": "",
+      "direction": "forward",
+      "target-type": "url",
+      "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+      "source-credit": "",
+      "url": {
+        "resource": "http://avicii.com/",
+        "id": "b7994835-8073-495c-947b-0cae9c719163"
+      },
+      "begin": null,
+      "end": null
+    },
+    {
+      "type": "online community",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "begin": null,
+      "url": {
+        "resource": "http://equipboard.com/pros/avicii",
+        "id": "a965a30f-a2a6-4528-964b-7850ed3ef2b7"
+      },
+      "source-credit": "",
+      "type-id": "35b3a50f-bf0e-4309-a3b4-58eeed8cee6a",
+      "target-type": "url",
+      "end": null
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "ended": false,
+      "type": "other databases",
+      "attribute-values": {},
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "url": {
+        "id": "15631d82-8280-42e8-8113-1bb972f12f9b",
+        "resource": "http://id.loc.gov/authorities/names/no2011136918"
+      },
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "target-type": "url",
+      "source-credit": ""
+    },
+    {
+      "end": null,
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "target-type": "url",
+      "source-credit": "",
+      "url": {
+        "id": "4cf2c984-5b30-4def-be8b-74293910da71",
+        "resource": "https://catalogue.bnf.fr/ark:/12148/cb16524131s"
+      },
+      "begin": null,
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "type": "other databases",
+      "attribute-values": {},
+      "attributes": []
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "type": "other databases",
+      "ended": false,
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "begin": null,
+      "url": {
+        "id": "083bd173-36bf-4305-bb25-d3f43c68a684",
+        "resource": "https://d-nb.info/gnd/1042223254"
+      },
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "end": null
+    },
+    {
+      "end": null,
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "resource": "https://imvdb.com/n/avicii",
+        "id": "b46792a5-b4b9-499f-a12e-9356baa41143"
+      },
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "other databases"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "type": "other databases",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "target-type": "url",
+      "url": {
+        "id": "f6b4949a-2383-4ef0-b194-3679415fbd7c",
+        "resource": "https://openlibrary.org/works/OL3041799A"
+      },
+      "begin": null
+    },
+    {
+      "url": {
+        "resource": "https://rateyourmusic.com/artist/avicii",
+        "id": "26825edb-79e6-4745-8ba2-5b90bd93d85d"
+      },
+      "begin": null,
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "attributes": [],
+      "attribute-values": {},
+      "type": "other databases",
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "id": "13beb8ed-2de7-46f2-b96f-5767e2acb1c8",
+        "resource": "https://www.muziekweb.nl/Link/M00000338860/POPULAR/"
+      },
+      "end": null,
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "other databases",
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "other databases",
+      "end": null,
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "source-credit": "",
+      "url": {
+        "id": "929a7723-14f3-49cb-b714-b894706ecc3a",
+        "resource": "https://www.whosampled.com/Avicii/"
+      },
+      "begin": null
+    },
+    {
+      "end": null,
+      "target-type": "url",
+      "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+      "source-credit": "",
+      "url": {
+        "id": "10536834-18e3-40e1-8b78-684a0663bffd",
+        "resource": "https://www.worldcat.org/identities/lccn-no2011136918"
+      },
+      "begin": null,
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "other databases"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attributes": [],
+      "attribute-values": {},
+      "type": "purchase for download",
+      "ended": true,
+      "attribute-ids": {},
+      "end": "2020-10-12",
+      "begin": null,
+      "url": {
+        "id": "bbe31ec1-338a-476f-b121-2e36a9eabd35",
+        "resource": "https://play.google.com/store/music/artist?id=Atrxtalf4tqdl5f2tdq4zv7oriy"
+      },
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "purchase for download",
+      "end": null,
+      "target-type": "url",
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "resource": "https://music.apple.com/se/artist/298496035",
+        "id": "baf270b1-d683-45b1-b0aa-f90933656c16"
+      }
+    },
+    {
+      "end": null,
+      "url": {
+        "resource": "https://se.7digital.com/artist/avicii",
+        "id": "b701d950-2726-412f-b991-d3d28441b5fe"
+      },
+      "begin": null,
+      "target-type": "url",
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+      "source-credit": "",
+      "target-credit": "",
+      "direction": "forward",
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "purchase for download",
+      "attribute-ids": {}
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "type": "purchase for download",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "url": {
+        "id": "f5e165fa-366f-407b-842f-33b083928dbf",
+        "resource": "https://www.beatport.com/artist/avicii/86436"
+      },
+      "source-credit": "",
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+      "target-type": "url"
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "ended": false,
+      "type": "purchase for download",
+      "attribute-values": {},
+      "attributes": [],
+      "end": null,
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+      "target-type": "url",
+      "source-credit": "",
+      "url": {
+        "resource": "https://www.junodownload.com/artists/Avicii/",
+        "id": "e503be29-aab4-46c3-b038-c0fa71a08ca2"
+      },
+      "begin": null
+    },
+    {
+      "attribute-values": {},
+      "attributes": [],
+      "type": "purchase for download",
+      "ended": true,
+      "attribute-ids": {},
+      "direction": "forward",
+      "target-credit": "",
+      "url": {
+        "resource": "https://www.onkyomusic.com/US/artists/518500",
+        "id": "36a89180-1830-4968-be7c-3e886c69fe81"
+      },
+      "begin": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+      "end": null
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+      "url": {
+        "resource": "https://secondhandsongs.com/artist/74396",
+        "id": "80b13bb7-3dcf-4ccd-bc80-7f0d7ed45432"
+      },
+      "begin": null,
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "type": "secondhandsongs",
+      "ended": false
+    },
+    {
+      "target-credit": "",
+      "direction": "forward",
+      "ended": false,
+      "type": "social network",
+      "attribute-values": {},
+      "attributes": [],
+      "attribute-ids": {},
+      "end": null,
+      "begin": null,
+      "url": {
+        "resource": "https://twitter.com/Avicii",
+        "id": "6b04bc84-5eff-417d-bbab-2f4136c865dd"
+      },
+      "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+      "target-type": "url",
+      "source-credit": ""
+    },
+    {
+      "url": {
+        "resource": "https://www.facebook.com/avicii",
+        "id": "2171f9ce-0ede-4f82-a016-61842a6eb050"
+      },
+      "begin": null,
+      "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+      "target-type": "url",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "type": "social network",
+      "attributes": [],
+      "attribute-values": {},
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "attribute-ids": {},
+      "ended": false,
+      "attribute-values": {},
+      "attributes": [],
+      "type": "social network",
+      "target-credit": "",
+      "direction": "forward",
+      "target-type": "url",
+      "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+      "source-credit": "",
+      "begin": null,
+      "url": {
+        "id": "dd40ff00-da6a-4e19-a4ef-d15969e2bf1b",
+        "resource": "https://www.instagram.com/avicii/"
+      },
+      "end": null
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "type": "songkick",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-ids": {},
+      "end": null,
+      "url": {
+        "resource": "https://www.songkick.com/artists/3117626",
+        "id": "82d37d15-5913-4c99-9588-96de41da5075"
+      },
+      "begin": null,
+      "source-credit": "",
+      "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+      "target-type": "url"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "type": "soundcloud",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+      "target-type": "url",
+      "begin": null,
+      "url": {
+        "resource": "https://soundcloud.com/aviciiofficial",
+        "id": "c546ce43-8e8f-46b5-9520-45598384e766"
+      }
+    },
+    {
+      "end": null,
+      "url": {
+        "resource": "https://music.apple.com/se/artist/298496035",
+        "id": "baf270b1-d683-45b1-b0aa-f90933656c16"
+      },
+      "begin": null,
+      "source-credit": "",
+      "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+      "target-type": "url",
+      "direction": "forward",
+      "target-credit": "",
+      "type": "streaming",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "attribute-ids": {}
+    },
+    {
+      "url": {
+        "resource": "https://tidal.com/artist/3637201",
+        "id": "078d2b22-d1a1-420f-91e3-00f6b39caa5f"
+      },
+      "begin": null,
+      "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+      "target-type": "url",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "type": "streaming",
+      "attribute-values": {},
+      "attributes": [],
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "type": "VIAF",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+      "target-type": "url",
+      "url": {
+        "resource": "http://viaf.org/viaf/186940710",
+        "id": "97248fcc-b6e3-474c-8740-ed00dc69da3a"
+      },
+      "begin": null
+    },
+    {
+      "end": null,
+      "source-credit": "",
+      "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+      "target-type": "url",
+      "url": {
+        "id": "538178f5-1ef9-4c06-a215-4622d2c60ca1",
+        "resource": "https://www.wikidata.org/wiki/Q505476"
+      },
+      "begin": null,
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "type": "wikidata",
+      "attribute-values": {},
+      "attributes": [],
+      "ended": false
+    },
+    {
+      "begin": null,
+      "url": {
+        "id": "cd8c2734-bd44-42e0-9e48-74aa6666842f",
+        "resource": "https://www.youtube.com/channel/UC1SqP7_RfOC9Jf9L_GRHANg"
+      },
+      "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+      "target-type": "url",
+      "source-credit": "",
+      "end": null,
+      "ended": false,
+      "type": "youtube",
+      "attribute-values": {},
+      "attributes": [],
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "forward"
+    },
+    {
+      "direction": "forward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "type": "youtube",
+      "ended": false,
+      "end": null,
+      "source-credit": "",
+      "target-type": "url",
+      "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+      "begin": null,
+      "url": {
+        "id": "f8825aa4-aa37-4b4f-acf6-187b6d60f211",
+        "resource": "https://www.youtube.com/channel/UCPHjpfnnGklkRBBTd0k6aHg"
+      }
+    }
+  ],
+  "id": "c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5",
+  "country": "SE",
+  "ipis": [
+    "00664775797"
+  ],
+  "type": "Person",
+  "isnis": [
+    "0000000119281541"
+  ],
+  "end-area": {
+    "sort-name": "Masqaţ",
+    "type": null,
+    "type-id": null,
+    "name": "Masqaţ",
+    "id": "0b9cf07a-f6ef-49a0-9a65-1dc3f031d7b4",
+    "iso-3166-2-codes": [
+      "OM-MA"
+    ],
+    "disambiguation": ""
+  },
+  "release-groups": [
+    {
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "61180839-f4a7-407f-b86f-24c48eef4066",
+      "primary-type": "Album",
+      "first-release-date": "2013-09-13",
+      "secondary-types": [],
+      "title": "True"
+    },
+    {
+      "primary-type": "Album",
+      "first-release-date": "2015-05-13",
+      "id": "74d25ab8-22c5-4c4d-989d-9b7d37abbe9f",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "title": "Stories",
+      "secondary-types": []
+    },
+    {
+      "primary-type": "Album",
+      "first-release-date": "2019-06-06",
+      "secondary-type-ids": [],
+      "disambiguation": "",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "c4a0cc2b-99b6-4299-b35c-92868ba6f570",
+      "title": "TIM",
+      "secondary-types": []
+    },
+    {
+      "primary-type": "Album",
+      "first-release-date": "2011-05-31",
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "disambiguation": "",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "4877202b-5791-4945-9d5d-adfa7d7da2f2",
+      "title": "The Singles",
+      "secondary-types": [
+        "Compilation"
+      ]
+    },
+    {
+      "secondary-types": [
+        "Compilation"
+      ],
+      "title": "Avicii et al: Swedish House Collection – Taken from Superstar",
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1"
+      ],
+      "disambiguation": "",
+      "id": "119761ec-cdb4-4cd5-be43-d9be2728fc73",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "first-release-date": "2011-10-28",
+      "primary-type": "Album"
+    },
+    {
+      "secondary-types": [
+        "Compilation",
+        "DJ-mix"
+      ],
+      "title": "Avicii Presents Strictly Miami",
+      "disambiguation": "",
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+      ],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "c961be6f-bef2-4861-a9f8-9c872a237256",
+      "primary-type": "Album",
+      "first-release-date": "2011-04-04"
+    },
+    {
+      "title": "Onelove Sonic Boom Box 2013",
+      "secondary-types": [
+        "Compilation",
+        "DJ-mix"
+      ],
+      "primary-type": "Album",
+      "first-release-date": "2013-06-24",
+      "id": "fd6de1ad-8761-4d92-a45e-ff1a5ff190bc",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "disambiguation": "",
+      "secondary-type-ids": [
+        "dd2a21e1-0c00-3729-a7a0-de60b84eb5d1",
+        "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+      ]
+    },
+    {
+      "disambiguation": "",
+      "secondary-type-ids": [
+        "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+        "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+      ],
+      "id": "7132049b-ce3b-4627-b6a2-10e169eb0d00",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "first-release-date": "2016-06-04",
+      "primary-type": "Album",
+      "secondary-types": [
+        "Live",
+        "DJ-mix"
+      ],
+      "title": "Live in Osaka"
+    },
+    {
+      "secondary-types": [
+        "Remix"
+      ],
+      "title": "True (Avicii by Avicii)",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "1538cd31-b8ac-4028-9e17-fec2ccfd2c62",
+      "secondary-type-ids": [
+        "0c60f497-ff81-3818-befd-abfc84a4858b"
+      ],
+      "disambiguation": "",
+      "first-release-date": "2014-03-24",
+      "primary-type": "Album"
+    },
+    {
+      "first-release-date": "2015-09-26",
+      "primary-type": "Album",
+      "disambiguation": "",
+      "secondary-type-ids": [
+        "0d47f47a-3fe5-3d69-ac9d-d566c23968bf"
+      ],
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "id": "b013dc56-bd74-4815-8e2d-bbd753442057",
+      "title": "Stories (megamix)",
+      "secondary-types": [
+        "DJ-mix"
+      ]
+    },
+    {
+      "title": "Sorry Mr. Atari",
+      "secondary-types": [],
+      "primary-type": "Single",
+      "first-release-date": "2008-05-09",
+      "secondary-type-ids": [],
+      "disambiguation": "",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "b75a0f4c-7213-428d-935b-adb60c9ea480"
+    },
+    {
+      "secondary-types": [],
+      "title": "Sound of Now",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "id": "c880dd6c-7331-4221-9343-7f09879098c7",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "primary-type": "Single",
+      "first-release-date": "2008-11-06"
+    },
+    {
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "id": "3d6dd2ce-1e14-456a-849f-03dec3ee71f9",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "first-release-date": "2008",
+      "primary-type": "Single",
+      "secondary-types": [],
+      "title": "Megatron"
+    },
+    {
+      "title": "So Excited",
+      "secondary-types": [],
+      "first-release-date": "2009-01-07",
+      "primary-type": "Single",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "ee9da297-c6f5-4de9-a22e-8a423bb0ea3b"
+    },
+    {
+      "secondary-types": [],
+      "title": "Set Me Free (Avicii radio edit)",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "5b9027a4-97cd-4960-b894-580f8a1562ac",
+      "first-release-date": "2009-02-06",
+      "primary-type": "Single"
+    },
+    {
+      "id": "7a4dfcb8-27fc-4534-bbfa-b0d187c16aa1",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "secondary-type-ids": [],
+      "disambiguation": "",
+      "first-release-date": "2009-06-03",
+      "primary-type": "Single",
+      "secondary-types": [],
+      "title": "Ryu / Strutnut"
+    },
+    {
+      "title": "Even",
+      "secondary-types": [],
+      "first-release-date": "2009-11-09",
+      "primary-type": "Single",
+      "id": "9d9d7194-8411-4cac-946e-3d441d4ff852",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "disambiguation": "",
+      "secondary-type-ids": []
+    },
+    {
+      "primary-type": "Single",
+      "first-release-date": "2009-11-24",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "3b5f0302-d7fb-43e1-a7a4-137f581e1f8a",
+      "title": "Break da Floor",
+      "secondary-types": []
+    },
+    {
+      "secondary-type-ids": [],
+      "disambiguation": "",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "d16fb28f-6896-4807-8073-e68a717b9848",
+      "first-release-date": "2009",
+      "primary-type": "Single",
+      "secondary-types": [],
+      "title": "Almost"
+    },
+    {
+      "title": "Bom",
+      "secondary-types": [],
+      "first-release-date": "2010-01-18",
+      "primary-type": "Single",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "5006000b-426e-4bba-8a77-eb021ed64348"
+    },
+    {
+      "first-release-date": "2010-05-10",
+      "primary-type": "Single",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "fca2e69f-5723-4468-9ef7-c30d075a4b38",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "title": "My Feelings For You",
+      "secondary-types": []
+    },
+    {
+      "title": "Malo",
+      "secondary-types": [],
+      "primary-type": "Single",
+      "first-release-date": "2010-11-08",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "7ef7a313-34af-4c7a-8ca0-f194c609a0bc"
+    },
+    {
+      "title": "Fade Into Darkness",
+      "secondary-types": [],
+      "primary-type": "Single",
+      "first-release-date": "2011-01-01",
+      "id": "caa29887-c42c-448b-9639-983c02012a13",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "disambiguation": "",
+      "secondary-type-ids": []
+    },
+    {
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "id": "9ba0ecc6-8fab-49a8-b1fb-3606b32e9c60",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "primary-type": "Single",
+      "first-release-date": "2011-01-17",
+      "secondary-types": [],
+      "title": "Street Dancer"
+    },
+    {
+      "primary-type": "Single",
+      "first-release-date": "2011-03-14",
+      "id": "d1bce121-3535-4a29-ba21-25234ca1ada4",
+      "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+      "disambiguation": "",
+      "secondary-type-ids": [],
+      "title": "Snus",
+      "secondary-types": []
+    }
+  ],
+  "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+  "name": "Avicii",
+  "area": {
+    "disambiguation": "",
+    "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+    "name": "Sweden",
+    "iso-3166-1-codes": [
+      "SE"
+    ],
+    "type-id": null,
+    "type": null,
+    "sort-name": "Sweden"
+  },
+  "life-span": {
+    "begin": "1989-09-08",
+    "ended": true,
+    "end": "2018-04-20"
+  },
+  "disambiguation": ""
+}

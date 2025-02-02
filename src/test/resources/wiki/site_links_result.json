@@ -1,0 +1,985 @@
+{
+  "entities": {
+    "Q15862": {
+      "type": "item",
+      "id": "Q15862",
+      "sitelinks": {
+        "abwiki": {
+          "site": "abwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "acewiki": {
+          "site": "acewiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "alswiki": {
+          "site": "alswiki",
+          "title": "Queen (Band)",
+          "badges": []
+        },
+        "amwiki": {
+          "site": "amwiki",
+          "title": "\u12ad\u12ca\u1295",
+          "badges": []
+        },
+        "angwiki": {
+          "site": "angwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "\u0643\u0648\u064a\u0646",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "\u0643\u0648\u064a\u0646",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "aywiki": {
+          "site": "aywiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "\u06a9\u0648\u0626\u06cc\u0646",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "barwiki": {
+          "site": "barwiki",
+          "title": "Queen (Band)",
+          "badges": []
+        },
+        "bat_smgwiki": {
+          "site": "bat_smgwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "bawiki": {
+          "site": "bawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "bclwiki": {
+          "site": "bclwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "\u041a\u0443\u0438\u0439\u043d",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "\u0995\u09c1\u0987\u09a8 (\u09ac\u09cd\u09af\u09be\u09a8\u09cd\u09a1)",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Queen (laz-seni\u00f1)",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "bugwiki": {
+          "site": "bugwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cbk_zamwiki": {
+          "site": "cbk_zamwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "chrwiki": {
+          "site": "chrwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Queen (musical group)",
+          "badges": []
+        },
+        "cowiki": {
+          "site": "cowiki",
+          "title": "Queen (gruppu musicale)",
+          "badges": []
+        },
+        "crhwiki": {
+          "site": "crhwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "csbwiki": {
+          "site": "csbwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cswikiquote": {
+          "site": "cswikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "cvwiki": {
+          "site": "cvwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Queen (Band)",
+          "badges": []
+        },
+        "dewikinews": {
+          "site": "dewikinews",
+          "title": "Kategorie:Queen (Band)",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "dsbwiki": {
+          "site": "dsbwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "emlwiki": {
+          "site": "emlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Queen (band)",
+          "badges": []
+        },
+        "enwikiquote": {
+          "site": "enwikiquote",
+          "title": "Queen (band)",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "extwiki": {
+          "site": "extwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "\u06a9\u0648\u0626\u06cc\u0646",
+          "badges": []
+        },
+        "fiu_vrowiki": {
+          "site": "fiu_vrowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "fjwiki": {
+          "site": "fjwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "fowiki": {
+          "site": "fowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "frpwiki": {
+          "site": "frpwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "frwikiquote": {
+          "site": "frwikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "furwiki": {
+          "site": "furwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "fywiki": {
+          "site": "fywiki",
+          "title": "Queen (band)",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "gdwiki": {
+          "site": "gdwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "gvwiki": {
+          "site": "gvwiki",
+          "title": "Queen (bann)",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "\u05e7\u05d5\u05d5\u05d9\u05df",
+          "badges": []
+        },
+        "hewikiquote": {
+          "site": "hewikiquote",
+          "title": "\u05e7\u05d5\u05d5\u05d9\u05df",
+          "badges": []
+        },
+        "hifwiki": {
+          "site": "hifwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "\u0915\u093c\u094d\u0935\u0940\u0928 (\u092c\u0948\u0902\u0921)",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "hsbwiki": {
+          "site": "hsbwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "htwiki": {
+          "site": "htwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "\u0554\u0578\u0582\u056b\u0576",
+          "badges": []
+        },
+        "iawiki": {
+          "site": "iawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "iewiki": {
+          "site": "iewiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "igwiki": {
+          "site": "igwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ilowiki": {
+          "site": "ilowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "itwikiquote": {
+          "site": "itwikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "\u30af\u30a4\u30fc\u30f3 (\u30d0\u30f3\u30c9)",
+          "badges": []
+        },
+        "jbowiki": {
+          "site": "jbowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kaawiki": {
+          "site": "kaawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kabwiki": {
+          "site": "kabwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kawikiquote": {
+          "site": "kawikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "kkwiki": {
+          "site": "kkwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kmwiki": {
+          "site": "kmwiki",
+          "title": "\u1783\u17d2\u179c\u17b8\u1793 (\u1780\u17d2\u179a\u17bb\u1798\u178f\u1793\u17d2\u178f\u17d2\u179a\u17b8)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "\ud038 (\ubc34\ub4dc)",
+          "badges": []
+        },
+        "kshwiki": {
+          "site": "kshwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kuwiki": {
+          "site": "kuwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kwwiki": {
+          "site": "kwwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "kywiki": {
+          "site": "kywiki",
+          "title": "\u041a\u0432\u0438\u043d",
+          "badges": []
+        },
+        "ladwiki": {
+          "site": "ladwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lawiki": {
+          "site": "lawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lbwiki": {
+          "site": "lbwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lezwiki": {
+          "site": "lezwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lijwiki": {
+          "site": "lijwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "liwiki": {
+          "site": "liwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lmowiki": {
+          "site": "lmowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ltgwiki": {
+          "site": "ltgwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "mgwiki": {
+          "site": "mgwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "mhrwiki": {
+          "site": "mhrwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "\u0d15\u0d4d\u0d35\u0d40\u0d7b (\u0d38\u0d02\u0d17\u0d40\u0d24 \u0d38\u0d02\u0d18\u0d02)",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Queen (\u0445\u0430\u043c\u0442\u043b\u0430\u0433)",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "\u0915\u094d\u0935\u093f\u0928 (\u092c\u0901\u0921)",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Queen (kugiran)",
+          "badges": []
+        },
+        "mtwiki": {
+          "site": "mtwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "mwlwiki": {
+          "site": "mwlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "mywiki": {
+          "site": "mywiki",
+          "title": "\u1000\u103d\u1004\u103a\u1038 (\u1010\u1031\u1038\u1002\u102e\u1010\u1021\u1016\u103d\u1032\u1037)",
+          "badges": []
+        },
+        "napwiki": {
+          "site": "napwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "nds_nlwiki": {
+          "site": "nds_nlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ndswiki": {
+          "site": "ndswiki",
+          "title": "Queen (Grupp)",
+          "badges": []
+        },
+        "newiki": {
+          "site": "newiki",
+          "title": "\u0915\u094d\u0935\u093f\u0928 (\u092c\u094d\u092f\u093e\u0928\u094d\u0921)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ocwiki": {
+          "site": "ocwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "oswiki": {
+          "site": "oswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "pagwiki": {
+          "site": "pagwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "pamwiki": {
+          "site": "pamwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "papwiki": {
+          "site": "papwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "\u0a15\u0a41\u0a08\u0a28 (\u0a2c\u0a48\u0a02\u0a21)",
+          "badges": []
+        },
+        "pcdwiki": {
+          "site": "pcdwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "pdcwiki": {
+          "site": "pdcwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "plwikiquote": {
+          "site": "plwikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "pmswiki": {
+          "site": "pmswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "ptwikiquote": {
+          "site": "ptwikiquote",
+          "title": "Queen",
+          "badges": []
+        },
+        "quwiki": {
+          "site": "quwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "rmwiki": {
+          "site": "rmwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "roa_tarawiki": {
+          "site": "roa_tarawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f:Queen",
+          "badges": []
+        },
+        "sahwiki": {
+          "site": "sahwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "scnwiki": {
+          "site": "scnwiki",
+          "title": "Queen (gruppu)",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Queen (baund)",
+          "badges": []
+        },
+        "scwiki": {
+          "site": "scwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "sewiki": {
+          "site": "sewiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Queen (band)",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Queen (skupina)",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "smnwiki": {
+          "site": "smnwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "smwiki": {
+          "site": "smwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "sowiki": {
+          "site": "sowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "srwikinews": {
+          "site": "srwikinews",
+          "title": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0458\u0430:\u041a\u0432\u0438\u043d",
+          "badges": []
+        },
+        "stqwiki": {
+          "site": "stqwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "suwiki": {
+          "site": "suwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "szlwiki": {
+          "site": "szlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "\u0b95\u0bc1\u0baf\u0bbf\u0ba9\u0bcd (\u0b87\u0b9a\u0bc8\u0b95\u0bcd\u0b95\u0bc1\u0bb4\u0bc1)",
+          "badges": []
+        },
+        "tetwiki": {
+          "site": "tetwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "tgwiki": {
+          "site": "tgwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "\u0e04\u0e27\u0e35\u0e19",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "tpiwiki": {
+          "site": "tpiwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ttwiki": {
+          "site": "ttwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "\u06a9\u0648\u0626\u06cc\u0646",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "vepwiki": {
+          "site": "vepwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Queen",
+          "badges": [
+            "Q17437796"
+          ]
+        },
+        "vlswiki": {
+          "site": "vlswiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "warwiki": {
+          "site": "warwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "wawiki": {
+          "site": "wawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "wowiki": {
+          "site": "wowiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "\u7687\u540e\u4e50\u961f",
+          "badges": []
+        },
+        "xmfwiki": {
+          "site": "xmfwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "yiwiki": {
+          "site": "yiwiki",
+          "title": "\u05e7\u05d5\u05d5\u05d9\u05df",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Queen (\u1eb9gb\u1eb9\u0301 ol\u00f3rin)",
+          "badges": []
+        },
+        "zeawiki": {
+          "site": "zeawiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Queen",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "\u7687\u540e\u6a02\u968a",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "Queen (\u4e50\u961f)",
+          "badges": []
+        },
+        "zuwiki": {
+          "site": "zuwiki",
+          "title": "Queen",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}
