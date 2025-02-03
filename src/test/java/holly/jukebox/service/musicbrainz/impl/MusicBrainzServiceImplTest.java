@@ -3,13 +3,10 @@ package holly.jukebox.service.musicbrainz.impl;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
+import holly.jukebox.TestUtils;
 import holly.jukebox.service.musicbrainz.MusicBrainzRestClient;
 import holly.jukebox.service.musicbrainz.model.AlbumResult;
 import holly.jukebox.service.musicbrainz.model.ArtistResult;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
@@ -32,7 +29,7 @@ class MusicBrainzServiceImplTest {
   @Test
   void findIdByArtistName() throws Exception {
     // Prepare
-    String searchResult = readFile("artist_search_result.json");
+    String searchResult = TestUtils.musicBrainzResource("artist_search_result.json");
 
     // Expect
     when(musicBrainzRestClient.findArtistByName("avicii"))
@@ -91,7 +88,7 @@ class MusicBrainzServiceImplTest {
   @Test
   void fetchArtistInformationById() throws Exception {
     // Prepare
-    String artistResultResponse = readFile("artist_id_result.json");
+    String artistResultResponse = TestUtils.musicBrainzResource("artist_id_result.json");
 
     // Expect
     when(musicBrainzRestClient.fetchArtistInformationById("c85cfd6b-b1e9-4a50-bd55-eb725f04f7d5"))
@@ -190,10 +187,5 @@ class MusicBrainzServiceImplTest {
 
     // Assert
     assertThat(wikidataId).isEqualTo(expectedId);
-  }
-
-  private static String readFile(final String resourceName) throws IOException {
-    Path path = Paths.get("src/test/resources/music-brainz/" + resourceName);
-    return Files.readString(path);
   }
 }

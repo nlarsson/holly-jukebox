@@ -3,11 +3,15 @@ package holly.jukebox.service.musicbrainz.impl;
 import holly.jukebox.service.musicbrainz.MusicBrainzCache;
 import holly.jukebox.service.musicbrainz.MusicBrainzRestClient;
 import holly.jukebox.service.musicbrainz.config.MusicBrainzConfig;
+import java.io.IOException;
 import java.util.Map;
 import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpRequest;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
@@ -45,6 +49,8 @@ class MusicBrainzRestClientImpl implements MusicBrainzRestClient {
             .get()
             .uri("/artist/?query=artist:{name}&fmt=json&limit=1", Map.of("name", name))
             .retrieve()
+            .onStatus(HttpStatusCode::is4xxClientError, this::onlyLogResponseError)
+            .onStatus(HttpStatusCode::is5xxServerError, this::onlyLogResponseError)
             .toEntity(String.class);
 
     if (response.getStatusCode().is2xxSuccessful()) {
@@ -52,6 +58,14 @@ class MusicBrainzRestClientImpl implements MusicBrainzRestClient {
     }
 
     return response;
+  }
+
+  private void onlyLogResponseError(HttpRequest request, ClientHttpResponse response)
+      throws IOException {
+    log.warn(
+        "MusicBrainz responded with '{}': {}",
+        response.getStatusCode().value(),
+        new String(response.getBody().readAllBytes()));
   }
 
   @Override
@@ -70,6 +84,8 @@ class MusicBrainzRestClientImpl implements MusicBrainzRestClient {
             .get()
             .uri("/artist/{mbid}?&fmt=json&inc=url-rels+release-groups", Map.of("mbid", mbid))
             .retrieve()
+            .onStatus(HttpStatusCode::is4xxClientError, this::onlyLogResponseError)
+            .onStatus(HttpStatusCode::is5xxServerError, this::onlyLogResponseError)
             .toEntity(String.class);
 
     if (response.getStatusCode().is2xxSuccessful()) {

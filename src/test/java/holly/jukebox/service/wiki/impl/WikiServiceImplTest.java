@@ -3,12 +3,9 @@ package holly.jukebox.service.wiki.impl;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
+import holly.jukebox.TestUtils;
 import holly.jukebox.service.wiki.WikidataRestClient;
 import holly.jukebox.service.wiki.WikipediaRestClient;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
@@ -33,7 +30,7 @@ class WikiServiceImplTest {
   @Test
   void fetchSitelinksForId() throws Exception {
     // Prepare
-    String searchResult = readFile("site_links_result.json");
+    String searchResult = TestUtils.wikiResource("site_links_result.json");
 
     // Expect
     when(wikidataRestClient.fetchSitelinksForId("Q15862"))
@@ -69,7 +66,7 @@ class WikiServiceImplTest {
   @Test
   void fetchDescriptionForTitle() throws Exception {
     // Prepare
-    String searchResult = readFile("title_result.json");
+    String searchResult = TestUtils.wikiResource("title_result.json");
 
     // Expect
     when(wikipediaRestClient.fetchDescriptionForTitle("title"))
@@ -95,10 +92,5 @@ class WikiServiceImplTest {
 
     // Assert
     assertThat(description).isEmpty();
-  }
-
-  private static String readFile(final String resourceName) throws IOException {
-    Path path = Paths.get("src/test/resources/wiki/" + resourceName);
-    return Files.readString(path);
   }
 }
