@@ -3,11 +3,8 @@ package holly.jukebox.service.coverartarchive.impl;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
+import holly.jukebox.TestUtils;
 import holly.jukebox.service.coverartarchive.CoverArtArchiveRestClient;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Optional;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
@@ -30,7 +27,7 @@ class CoverArtArchiveServiceImplTest {
   @Test
   void findCoversForId() throws Exception {
     // Prepare
-    String coversResult = readFile("covers_result.json");
+    String coversResult = TestUtils.coverArtArchiveFile("covers_result.json");
 
     // Expect
     when(coverArtArchiveRestClient.findCoversForId("id"))
@@ -62,10 +59,5 @@ class CoverArtArchiveServiceImplTest {
 
     // Assert
     assertThat(frontCover).isEmpty();
-  }
-
-  private static String readFile(final String resourceName) throws IOException {
-    Path path = Paths.get("src/test/resources/cover-art-archive/" + resourceName);
-    return Files.readString(path);
   }
 }
