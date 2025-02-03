@@ -15,7 +15,7 @@ The api exposes a single endpoint:
 eg: `curl http://localhost:5050/api/v1/search/queen`
 
 Make sure to URL encode the search parameter, mostly this means to replace space with %20. Eg:
-/api/v1/search/system%20of%20a%20down
+`/api/v1/search/system%20of%20a%20down`
 
 ## Configuration
 
